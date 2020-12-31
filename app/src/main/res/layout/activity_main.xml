@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#fff">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:textColor="#fff"
+        android:padding="3dp"
+        android:text="@string/add_patient"
+        android:id="@+id/buttonAddPatient"
+        android:layout_toLeftOf="@+id/buttonAddSession"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:textColor="#fff"
+        android:padding="3dp"
+        android:text="@string/add_session"
+        android:id="@+id/buttonAddSession"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:textColor="#fff"
+        android:padding="3dp"
+        android:text="@string/view_history"
+        android:id="@+id/buttonViewHistory"
+        android:layout_toRightOf="@+id/buttonAddSession"
+        android:layout_marginTop="5dp"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_below="@+id/buttonAddSession"
+        android:text="@string/patient"
+        android:id="@+id/textviewPatient"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="40dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/patientSpinner"
+        android:layout_below="@id/buttonAddPatient"
+        android:layout_toRightOf="@+id/textviewPatient"
+        android:layout_marginTop="40dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_below="@+id/textviewPatient"
+        android:text="@string/weekly_hours"
+        android:id="@+id/textviewWeeklyHours"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_below="@+id/textviewPatient"
+        android:id="@+id/textviewWeeklyHoursValue"
+        android:layout_toRightOf="@+id/textviewWeeklyHours"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_below="@+id/textviewWeeklyHours"
+        android:text="@string/total_hours"
+        android:id="@+id/textviewTotalHours"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_below="@+id/textviewWeeklyHours"
+        android:id="@+id/textviewTotalHoursValue"
+        android:layout_toRightOf="@+id/textviewTotalHours"
+        android:layout_marginTop="40dp"/>
+
+
+
+</RelativeLayout>

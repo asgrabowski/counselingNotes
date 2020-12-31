@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Counseling Recorder</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="add_patient">Add Patient</string>
+    <string name="add_session">Record Session</string>
+    <string name="view_history">View History</string>
+    <string name="patient">Patient:</string>
+    <string name="weekly_hours">Hours This Week:</string>
+    <string name="total_hours">Total Hours:</string>
+    <string name="new_text">New Patient:</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Confirm</string>
+    <string name="date">Date:</string>
+    <string name="start_time">Start Time:</string>
+    <string name="end_time">End Time:</string>
+    <string name="note">Note:</string>
+    <string name="close">Close</string>
+    <string name="remove">Delete</string>
+</resources>
